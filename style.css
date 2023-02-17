@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+.page{
+    display: flex;
+    flex-direction: row;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    background: #8E9AAF;
+
+    width: 37.7rem;
+}
+
+header img{
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+
+}
+
+header h1{
+    font-family: 'Staatliches', sans-serif;
+    font-weight: 400;
+    font-size: 4.8rem;
+    line-height: 3.4rem;
+
+    color: #FFFFFF;
+
+    background: #CBC0D3;
+
+    width: 100%;
+
+    padding: 2rem 0 2rem 0;
+
+    margin-bottom: 3.2rem;
+}
+
+header p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2rem;
+
+    color: #FFFFFF;
+
+    width: 27.5rem;
+    
+    
+    margin-bottom: 12.5rem;
+}
+
+main{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+
+    color: #4A4E69;
+
+    margin: 0 auto 0;
+
+    padding-top: 6.4rem;
+    padding-bottom: 4.6rem;
+
+}
+
+main img{
+    border-radius: 2rem;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.2rem;
+    grid-template-areas: 
+    "iceCream1 sweetOvernight iceCream2"
+    "iceCream3 sweetOvernight iceCream5"
+    "iceCream3 iceCream4 iceCream5";
+}
+
+#iceCream1{
+    grid-area: iceCream1;
+}
+
+#sweetOvernight{
+    grid-area: sweetOvernight;
+}
+
+#iceCream2{
+    grid-area: iceCream2;
+}
+
+#iceCream3{
+    grid-area: iceCream3;
+}
+
+#iceCream4{
+    grid-area: iceCream4;
+}
+
+#iceCream5{
+    grid-area: iceCream5;
+}
+
+main img{
+    width: 22rem;
+}
+
+main #iceCream1, main #iceCream2, main #iceCream4{
+    height: 15rem
+}
+main #sweetOvernight, main #iceCream3, main #iceCream5{
+    height: 35rem;
+}
+
+main h2{
+    margin-top: 5rem;
+    margin-bottom: 4.6rem;
+
+    font-weight: 400;
+
+    text-align: center;
+}
+
+main a{
+    font-weight: 700;
+}
